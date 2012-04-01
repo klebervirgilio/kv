@@ -10,10 +10,14 @@ var App = function(){
 	}
 	
 	var ui = function(){
-		$('#day').html(days);
-		$('#hour').html(hours);
-		$('#min').html(mins);
-		$('#sec').html(sec);
+		$('#day').html(digitFormat(days));
+		$('#hour').html(digitFormat(hours));
+		$('#min').html(digitFormat(mins));
+		$('#sec').html(digitFormat(sec));
+	}
+	
+	var digitFormat = function(digit){
+		return digit < 10 ? '0' + digit : digit;
 	}
 	
 	this.clock = function(){

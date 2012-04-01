@@ -2,7 +2,7 @@
 
 body{
 	background-color:#E5F9FF;
-/*	color:#00ACE6;*/
+	color:#00ACE6;
 	text-shadow: 4px 2px #fff;
 	font-family: 'Imprima', Arial, sans-serif;
 }
@@ -42,9 +42,19 @@ span.counter{
 }
 
 p {
+	text-align:center;
 	font-size:25px;
 	margin-top:90px;
 }
+
+p em{
+	color:#0086B3;	
+	font-weight:bold;
+	font-size:40px;
+}
+
 em{
 	color:red;	
+	font-weight:bold;
+	font-size:140px;
 }

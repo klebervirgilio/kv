@@ -11,18 +11,23 @@
 	<div class="wrapper">
 		
 		<section id="top">
-			<h1>K <em>&hearts;</em> V</h1>
+			<h1>Kleber <em>&hearts;</em> Valéria</h1>
 		</section>
 		
 		<section id="timer" data-counter="<%= @time %>">
-			<span id='day' class="counter"><%= @days %>		</span><span>	Dias			</span>
-			<span id='hour' class="counter"><%= @hours %>	</span><span>	Horas			</span>
-			<span id='min' class="counter"><%= @minutes %></span><span>	Minutos		</span>
-			<span id='sec' class="counter"> <%= @seconds %></span><span>	Segundos	</span>
+			<span id='day' class="counter"><%= "%02d" %  @days %>		</span><span>	dias			</span>
+			<span id='hour' class="counter"><%= "%02d" % @hours %>	</span><span>	horas			</span>
+			<span id='min' class="counter"><%= "%02d" % @minutes %></span><span>	minutos		</span>
+			<span id='sec' class="counter"> <%= "%02d" % @seconds %></span><span>	segundos	</span>
 		</section>
 		
-		<p>21/04/2012 ás 11h30</p>
-		
+		<p>21/04/2012 ás 11h</p>
+		<p>
+			<em>“</em>
+			para que todos vejam e saibam, considerem e juntamente entendam que a mão do SENHOR fez isso.
+			<em>”</em>
+		</p>
+		<p>Isaías 41:20</p>
 	</div>
 	
 </body>
