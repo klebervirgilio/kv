@@ -1,10 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Imprima);
+
+body{
+	background-color:#E5F9FF;
+	color:#00ACE6;
+	text-shadow: 4px 2px #fff;
+	font-family: 'Imprima', Arial, sans-serif;
+}
+
 .wrapper {
 	margin:0 auto;
 	width:960px;
 	overflow:hidden;
 }
 
-#top, #timer{
+#top, #timer, p{
 	/* Firefox */
 	display:-moz-box;
 	-moz-box-orient:horizontal;
@@ -26,4 +35,16 @@
 
 #top{
 	font-size:60px;
+}
+
+span.counter{
+	font-size:40px;
+}
+
+p {
+	font-size:25px;
+	margin-top:90px;
+}
+em{
+	color:red;	
 }

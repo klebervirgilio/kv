@@ -15,32 +15,16 @@
 		</section>
 		
 		<section id="timer" data-counter="<%= @time %>">
-			<header>Contagem regressiva!</header>
-			<span id='day'><%= @days %></span><em>Dias</em>
-			<span id='hour'><%= @hours %></span><em>Horas</em>
-			<span id='min'><%= @minutes %></span><em>Minutos</em>
-			<span id='sec'><%= @seconds %></span><em>Segundos</em>
+			<span id='day' class="counter"><%= @days %>		</span><span>	Dias			</span>
+			<span id='hour' class="counter"><%= @hours %>	</span><span>	Horas			</span>
+			<span id='min' class="counter"><%= @minutes %></span><span>	Minutos		</span>
+			<span id='sec' class="counter"> <%= @seconds %></span><span>	Segundos	</span>
 		</section>
-
-		<aside>
-			<nav id="data">
-			 <ul>
-			 	<li><a href="#">Local e Mapas</a></li>
-			 	<li><a href="#">Datas</a></li>
-			 	<li><a href="#">Fotos</a></li>
-			 	<li><a href="#">Listas de Presentes</a></li>
-			 </ul>
-			</nav>
-			
-			<section id="reactions">
-				
-			</section>
-		</aside>
+		
+		<p>21/04/2012 ás 11h30</p>
+		
 	</div>
 	
-	<footer>
-		:)
-	</footer>
 </body>
 </html>
 	
