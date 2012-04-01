@@ -1,8 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Imprima);
+/*@import url(http://fonts.googleapis.com/css?family=Imprima);*/
 
 body{
 	background-color:#E5F9FF;
-	color:#00ACE6;
+/*	color:#00ACE6;*/
 	text-shadow: 4px 2px #fff;
 	font-family: 'Imprima', Arial, sans-serif;
 }
