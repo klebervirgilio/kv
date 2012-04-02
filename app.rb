@@ -8,9 +8,7 @@ class Casamento < Sinatra::Base
   MINUTE_IN_SECONDS = 60
   
   get '/' do
-    now = Time.now
-    y,m,d,h,min,s = now.year, now.month, now.day, now.hour, now.min, now.sec
-    @time = time = Time.local(0,30,11,21,4,2012,nil,nil,nil,-3) - Time.local(*[y,m,d,h,min,s].reverse,nil,nil,nil,-3)
+    @time = time = Time.local(0,0,11,21,4,2012,nil,nil,nil,-3) - Time.now
     @counting = [
       @days     = Integer(time  / DAY_IN_SECONDS    ),
       @hours    = Integer((time / HOUR_IN_SECONDS   ) - (@days * DAY_IN_HOURS)),
